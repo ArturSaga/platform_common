@@ -10,8 +10,8 @@ import (
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/ArturSaga/chat-server/internal/client/db"
-	"github.com/ArturSaga/chat-server/internal/client/db/prettier"
+	"github.com/ArturSaga/platform_common/pkg/db"
+	"github.com/ArturSaga/platform_common/pkg/db/prettier"
 )
 
 type key string
